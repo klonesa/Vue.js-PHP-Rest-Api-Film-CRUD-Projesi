@@ -1,0 +1,19 @@
+Projeyi çalıştırabilmek için;
+
+Phpmyadmin ile bir veri tabanı oluşturun ardından ana dizindeki filmler.sql
+dosyasını oluşturduğunuz veri tabanına içe aktarın.
+
+2.Adım Veri Tabanı Bağlantı Ayarları
+
+Api klasörü içerisindeki v1.php dosayını açın 7.satırdaki veri tabanı bilgilerini
+kendi veri tabanı bilgileriniz ile değiştirin.
+
+3.Adım Api Url Düzenleme
+
+js klasörünü açın ve ardından app.js dosyasını açın
+buradaki tüm http://localhost/film-crud/api/v1.php url adresini kendi adresiniz
+ile değiştirin.
+Örneğin, http://localhost/değişecekKısım/api/v1.php
+
+Hepsi bu kadar.
+
